@@ -1,0 +1,44 @@
+.about__background {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./img/GarfieldFlowers.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+}
+
+.about__content {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 100vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__content .fa-arrow-circle-up {
+  position: absolute;
+  top: 20px;
+}
+
+.about__icons {
+  display: flex;
+  align-items: center;
+}
+
+.about__icons > * {
+  margin: 0 10px;
+}
+
+.about__content .fa:hover {
+  color: #FEA0E7;
+}
+
+.about__content .fa-arrow-circle-down {
+  position: absolute;
+  bottom: 20px;
+}
