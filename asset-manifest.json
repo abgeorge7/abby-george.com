@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.df4da0f5.chunk.css",
+    "main.js": "/static/js/main.eb1327bd.chunk.js",
+    "main.js.map": "/static/js/main.eb1327bd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fc27b622.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fc27b622.js.map",
+    "static/js/2.0b869277.chunk.js": "/static/js/2.0b869277.chunk.js",
+    "static/js/2.0b869277.chunk.js.map": "/static/js/2.0b869277.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.7124b766dc4c262a9be23f399b94ee37.js": "/precache-manifest.7124b766dc4c262a9be23f399b94ee37.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.df4da0f5.chunk.css.map": "/static/css/main.df4da0f5.chunk.css.map",
+    "static/media/AbbyGeorge_Resume.pdf": "/static/media/AbbyGeorge_Resume.014093b6.pdf",
+    "static/media/About.css": "/static/media/GarfieldFlowers.f530546f.JPG",
+    "static/media/Home.css": "/static/media/LisbonFlowers.45bb0178.png"
+  }
+}
