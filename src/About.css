@@ -25,17 +25,33 @@
   top: 20px;
 }
 
+.about__content .fa-arrow-circle-up:hover {
+  color: #fea0e7;
+}
+
 .about__icons {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.about__icons > * {
-  margin: 0 10px;
+.about__icon {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 20px;
+  width: 200px;
+  height: 200px;
+  border: 2px solid var(--gray);
+  border-radius: 50%;
 }
 
-.about__content .fa:hover {
-  color: #FEA0E7;
+.about__icon:hover {
+  cursor: pointer;
+  background-blend-mode: lighten;
+  background-color: rgba(254, 160, 231, 0.3);
 }
 
 .about__content .fa-arrow-circle-down {

@@ -15,16 +15,28 @@ class About extends React.Component {
           <h1>About</h1>
           <div className='about__icons'>
             <a href='https://www.linkedin.com/in/abbygeorge'>
-              <i className='fa fa-linkedin-square' />
+              <div className='about__icon'>
+                <i className='fa fa-linkedin-square' />
+                <h2>LinkedIn</h2>
+              </div>
             </a>
             <a href='https://github.com/abgeorge7'>
-              <i className='fa fa-github-square' />
+              <div className='about__icon'>
+                <i className='fa fa-github-square' />
+                <h2>GitHub</h2>
+              </div>
             </a>
             <a href='mailto:abbyrgeorge@gmail.com'>
-              <i className='fa fa-envelope' />
+              <div className='about__icon'>
+                <i className='fa fa-envelope' />
+                <h2>Email</h2>
+              </div>
             </a>
             <a href={pdf}>
-              <i className='fa fa-file' />
+              <div className='about__icon'>
+                <i className='fa fa-file' />
+                <h2>Resume</h2>
+              </div>
             </a>
           </div>
         </div>
