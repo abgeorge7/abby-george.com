@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.0fff153f.chunk.css",
-    "main.js": "/static/js/main.9fb2bcf4.chunk.js",
-    "main.js.map": "/static/js/main.9fb2bcf4.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.fc27b622.js",
-    "runtime-main.js.map": "/static/js/runtime-main.fc27b622.js.map",
-    "static/css/2.bc4837a2.chunk.css": "/static/css/2.bc4837a2.chunk.css",
-    "static/js/2.eff07289.chunk.js": "/static/js/2.eff07289.chunk.js",
-    "static/js/2.eff07289.chunk.js.map": "/static/js/2.eff07289.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.5dcad6ffe022917342fed6988c6e4211.js": "/precache-manifest.5dcad6ffe022917342fed6988c6e4211.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.bc4837a2.chunk.css.map": "/static/css/2.bc4837a2.chunk.css.map",
-    "static/css/main.0fff153f.chunk.css.map": "/static/css/main.0fff153f.chunk.css.map",
-    "static/media/abby.png": "/static/media/abby.88c76a88.png",
-    "static/media/semantic.min.css": "/static/media/outline-icons.ef60a4f6.woff",
-    "static/media/resume.pdf": "/static/media/resume.2f3a3a70.pdf"
+    "main.css": "/abby-george/static/css/main.0fff153f.chunk.css",
+    "main.js": "/abby-george/static/js/main.9fb2bcf4.chunk.js",
+    "main.js.map": "/abby-george/static/js/main.9fb2bcf4.chunk.js.map",
+    "runtime-main.js": "/abby-george/static/js/runtime-main.329264d6.js",
+    "runtime-main.js.map": "/abby-george/static/js/runtime-main.329264d6.js.map",
+    "static/css/2.5f805cb2.chunk.css": "/abby-george/static/css/2.5f805cb2.chunk.css",
+    "static/js/2.eff07289.chunk.js": "/abby-george/static/js/2.eff07289.chunk.js",
+    "static/js/2.eff07289.chunk.js.map": "/abby-george/static/js/2.eff07289.chunk.js.map",
+    "index.html": "/abby-george/index.html",
+    "precache-manifest.448149966e649afe21302fef4c9c8a50.js": "/abby-george/precache-manifest.448149966e649afe21302fef4c9c8a50.js",
+    "service-worker.js": "/abby-george/service-worker.js",
+    "static/css/2.5f805cb2.chunk.css.map": "/abby-george/static/css/2.5f805cb2.chunk.css.map",
+    "static/css/main.0fff153f.chunk.css.map": "/abby-george/static/css/main.0fff153f.chunk.css.map",
+    "static/media/abby.png": "/abby-george/static/media/abby.88c76a88.png",
+    "static/media/semantic.min.css": "/abby-george/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/resume.pdf": "/abby-george/static/media/resume.2f3a3a70.pdf"
   }
 }
