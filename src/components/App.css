@@ -1,0 +1,29 @@
+.app {
+  margin: 20px 0 !important;
+}
+
+.app .fa-sm {
+  font-size: 26px;
+  margin: 0 10px 0 0;
+}
+
+.app .ui.menu .item {
+  font-size: 20px;
+}
+
+.app .ui.menu .item a {
+  color: var(--gray);
+}
+
+.app .ui.menu .item a:hover {
+  color: var(--pink);
+}
+
+.app .fa-lg {
+  font-size: 40px;
+  margin: 0;
+}
+
+.app .fa-lg:hover {
+  color: var(--pink);
+}

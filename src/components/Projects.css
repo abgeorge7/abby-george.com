@@ -1,0 +1,19 @@
+.projects .fa-sm {
+  margin-right: 5px;
+}
+
+.projects-description {
+  font-size: 16px;
+}
+
+.projects-links {
+  display: flex;
+  padding: 0 !important;
+  margin: 5px 0 5px 0 !important;
+}
+
+.projects-links a {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}

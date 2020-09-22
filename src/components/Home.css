@@ -1,0 +1,15 @@
+.home .item {
+  display: flex !important;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.home .ui.grid {
+  display: flex;
+  align-items: center;
+}
+
+.home .ui.image {
+  display: unset;
+  width: 40%;
+}
