@@ -1,3 +1,7 @@
+.home {
+  margin: 40px 0;
+}
+
 .home .item {
   display: flex !important;
   align-items: center;
@@ -11,5 +15,5 @@
 
 .home .ui.image {
   display: unset;
-  width: 40%;
+  width: 80%;
 }

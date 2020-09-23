@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, List, Image } from "semantic-ui-react";
+import { Grid, List, Image, Divider } from "semantic-ui-react";
 import resume from "../files/resume.pdf";
 import photo from "../img/abby.png";
 import "./Home.css";
@@ -8,9 +8,12 @@ class Home extends React.Component {
   render() {
     return (
       <div className="home">
-        <h1>Abby George</h1>
-        <Grid columns={2}>
-          <Grid.Column>
+        <Grid columns={12}>
+          <Grid.Column width={4}>
+            <Image src={photo} alt="Abby George" />
+          </Grid.Column>
+          <Grid.Column width={8}>
+            <h1>Abby George</h1>
             <List>
               <List.Item>
                 <i className="fa fa-laptop fa-sm" />
@@ -27,9 +30,12 @@ class Home extends React.Component {
                 </List.Item>
               </a>
             </List>
-          </Grid.Column>
-          <Grid.Column textAlign="center">
-            <Image src={photo} alt="Abby George" />
+            <Divider />
+            <p>
+              Hello! I'm Abby. I am a Software Engineer turned Product Manager,
+              passionate about working with engineers and users to deliver
+              something that everyone is excited about.
+            </p>
           </Grid.Column>
         </Grid>
       </div>

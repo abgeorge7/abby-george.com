@@ -3,6 +3,7 @@ import { Container, Menu, Image } from "semantic-ui-react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from "./Home";
 import Projects from "./Projects";
+import Travels from "./Travels";
 import logo from "../img/favicon.png";
 import "./App.css";
 
@@ -21,10 +22,10 @@ export class App extends React.Component {
               <Link to="/">Home</Link>
             </Menu.Item>
             <Menu.Item>
-              <Link to="/travels">Travels</Link>
+              <Link to="/projects">Projects</Link>
             </Menu.Item>
             <Menu.Item>
-              <Link to="/projects">Projects</Link>
+              <Link to="/travels">Travels</Link>
             </Menu.Item>
             <Menu.Menu position="right">
               <Menu.Item>
@@ -59,6 +60,7 @@ export class App extends React.Component {
           <Container>
             <Switch>
               <Route path="/projects" component={Projects} />
+              <Route path="/travels" component={Travels} />
               <Route path="/" component={Home} />
             </Switch>
           </Container>

@@ -1,0 +1,22 @@
+.travels {
+  height: calc(100vh - 80px);
+}
+
+.travels-map-marker {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.travels-map-marker {
+  font-size: 28px;
+  margin: 0;
+  color: red;
+}
+
+.travels-map-layer {
+  background-color: #fff;
+  padding: 10px 10px;
+  width: 200px;
+  border-bottom-right-radius: 10px;
+}
