@@ -1,9 +1,8 @@
 import React from "react";
 import { Container, Menu, Image } from "semantic-ui-react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./Home";
 import Projects from "./Projects";
-import Travels from "./Travels";
 import logo from "../img/favicon.png";
 import "./App.css";
 
@@ -23,9 +22,6 @@ export class App extends React.Component {
             </Menu.Item>
             <Menu.Item>
               <Link to="/projects">Projects</Link>
-            </Menu.Item>
-            <Menu.Item>
-              <Link to="/travels">Travels</Link>
             </Menu.Item>
             <Menu.Menu position="right">
               <Menu.Item>
@@ -58,11 +54,10 @@ export class App extends React.Component {
             </Menu.Menu>
           </Menu>
           <Container>
-            <Switch>
-              <Route path="/projects" component={Projects} />
-              <Route path="/travels" component={Travels} />
-              <Route path="/" component={Home} />
-            </Switch>
+            <Routes>
+              <Route path="/projects" element={<Projects/>} />
+              <Route path="/" element={<Home/>} />
+            </Routes>
           </Container>
         </div>
       </Router>
